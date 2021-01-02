@@ -3,42 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Google</title>
 
-  <link rel="stylesheet" href="src/styles.css" />
+  <title>Google</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <nav class="navbar">
-      <ul class="left">
-        <li><a href="">About</a></li>
-        <li><a href="">Store</a></li>
-      </ul>
-      <ul class="right">
-        <li><a href="">Gmail</a></li>
-        <li><a href="">Images</a></li>
-        <li><a id="">Apps</a></li>
-        <li><a href="">Sign In</a></li>
-      </ul>
-      <div class="search-space">
-        <input class="search-bar" type="text" />
-      </div>
-      <div class="search-buttons">
-        <button class="search">Google Search</button>
-        <button class="search">I'm Feeling Lucky</button>
-      </div>
-      <footer>
-        <ul class="low-left">
-          <li><a href="">Advertising</a></li>
-          <li><a href="">Business</a></li>
-          <li><a href="">How Search Works</a></li>
-        </ul>
-        <ul class="low-right">
-          <li><a href="">Privacy</a></li>
-          <li><a href="">Terms</a></li>
-          <li><a href="">Settings</a></li>
-        </ul>
-      </footer>
-    </nav>
+    <div class ="window-adjust">
+        <nav class="navbar">
+          <ul>
+          <div class="left">
+            <li><a href="about.google.com">About</a></li>
+            <li><a href="store.google.com">Store</a></li>
+          </div>
+          </ul>
+          <ul>
+            <div class="right">
+              <li><a href="gmail.google.com">Gmail</a></li>
+              <li><a href="images.google.com">Images</a></li>
+              <li><a id="menu.google.com">Apps</a></li>
+              <li><a href="user.google.com" class="login">Sign In</a></li>
+            </div>
+          </ul>
+        </nav>
+        <div class = "field">
+          <div class="fitted">
+            <img src="google-logo.jpg" alt="Google Logo" width="270" height="150">
+          </div>
+            <div class="search-space">
+              <input id ="search-area" type="text">
+            </div>
+            
+          <div class="search-buttons">
+            <button class="search">Google Search</button>
+            <button class="search">I'm Feeling Lucky</button>
+          </div>
+        </div>
+        <footer class = "f">
+          <div class = "bottom">
+            <div class="low-left">
+              <div><a href="advertising.google.com">Advertising</a></div>
+              <div><a href="business.google.com">Business</a></div>
+              <div><a href="search.google.com">How Search Works</a></div>
+            </div>
+            <div class="low-right">
+              <div><a href="privacy.google.com">Privacy</a></div>
+              <div><a href="terms.google.com">Terms</a></div>
+              <div><a href="settings.google.com">Settings</a></div>
+            </div>
+          </div>  
+        </footer>
+    </div>
   </header>
 </body>
